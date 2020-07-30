@@ -37,7 +37,7 @@ you can use conda or virtualenv for example:  pip install virtualenv
 
 ## Demo
 To run a basic demo:
-![GitHub Logo](/project images/output result.png)
+![GitHub Logo](https://github.com/MaryamHamad/Pointer_Controller_By_Gaze_estimation/blob/master/project%20images/output%20result.png)
 
 
 Python3 src/main.py -fm models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001.xml -hm models/intel/head-pose-estimation-adas-0001/FP32/head-pose-estimation-adas-0001.xml -flm models/intel/landmarks-regression-retail-0009/FP32/landmarks-regression-retail-0009.xml -gm models/intel/gaze-estimation-adas-0002/FP32/gaze-estimation-adas-0002.xml -i inputs/demo.mp4
