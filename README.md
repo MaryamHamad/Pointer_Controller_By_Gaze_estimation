@@ -2,7 +2,7 @@
 Change computer mouse position based on gaze estimation 
 
 ## Project pipeline 
-![GitHub Logo](/project images/inference_pipeline.png)
+![GitHub Logo](https://github.com/MaryamHamad/Pointer_Controller_By_Gaze_estimation/blob/master/project%20images/%20inference_pipeline.png)
 
 
 About the project:
