@@ -2,6 +2,8 @@
 Change computer mouse position based on gaze estimation 
 
 ## Project pipeline 
+![GitHub Logo](/project images/inference_pipeline.png)
+
 
 About the project:
 In this project, a mouse pointer is controlled by the gaze estimations. Basically, 4 openVino models are used in this project to achieve the objective and they are listed as following: 
@@ -35,6 +37,8 @@ you can use conda or virtualenv for example:  pip install virtualenv
 
 ## Demo
 To run a basic demo:
+![GitHub Logo](/project images/output result.png)
+
 
 Python3 src/main.py -fm models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001.xml -hm models/intel/head-pose-estimation-adas-0001/FP32/head-pose-estimation-adas-0001.xml -flm models/intel/landmarks-regression-retail-0009/FP32/landmarks-regression-retail-0009.xml -gm models/intel/gaze-estimation-adas-0002/FP32/gaze-estimation-adas-0002.xml -i inputs/demo.mp4
 
