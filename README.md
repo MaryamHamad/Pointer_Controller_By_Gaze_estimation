@@ -60,17 +60,17 @@ using CPU, and openVINOtoolkit on macOS, I got these results:
 
 *Loading time:*
 
-*FP32:
+* FP32:
 	1-Face detection: 0.405
 	2- Head pose estimation: 0.287
 	3-Facial landmarks model: 0.149
 	4-Gaze estimation model:  0.163
-*FP16:
+* FP16:
 	1-Face detection: 0.405
 	2- Head pose estimation: 0.274
 	3-Facial landmarks model: 0.132
 	4-Gaze estimation model:  0.155
-*INT8: 
+* INT8: 
 	1-Face detection: 0.446
 	2- Head pose estimation: 0.424
 	3-Facial landmarks model: 0.182
@@ -79,18 +79,18 @@ using CPU, and openVINOtoolkit on macOS, I got these results:
 
 *Inference time:*
 
-*FP32: 
+* FP32: 
 	1-Face detection: 0.0155
 	2- Head pose estimation: 0.0014
 	3-Facial landmarks model: 0.00123
 	4-Gaze estimation model:  0.00163
 
-*FP16: 
+* FP16: 
 	1-Face detection: 0.0153
 	2- Head pose estimation: 0.0015
 	3-Facial landmarks model: 0.0013
 	4-Gaze estimation model:  0.0018
-*INT8:
+* INT8:
 	1-Face detection: 0.0156
 	2- Head pose estimation: 0.00128
 	3-Facial landmarks model: 0.00126
