@@ -58,7 +58,7 @@ using CPU, and openVINOtoolkit on macOS, I got these results:
 
 
 
-##Loading time:
+*Loading time:*
 
 *FP32:
 	1-Face detection: 0.405
@@ -77,7 +77,7 @@ using CPU, and openVINOtoolkit on macOS, I got these results:
 	4-Gaze estimation model:  0.310
 
 
-##Inference time:
+*Inference time:*
 
 *FP32: 
 	1-Face detection: 0.0155
