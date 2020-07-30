@@ -1,6 +1,8 @@
 # Pointer_Controller_By_Gaze_estimation
 Change computer mouse position based on gaze estimation 
 
+## Project pipeline 
+
 About the project:
 In this project, a mouse pointer is controlled by the gaze estimations. Basically, 4 openVino models are used in this project to achieve the objective and they are listed as following: 
 * face detection model (https://docs.openvinotoolkit.org/latest/omz_models_intel_face_detection_adas_binary_0001_description_face_detection_adas_binary_0001.html)
@@ -52,43 +54,39 @@ using CPU, and openVINOtoolkit on macOS, I got these results:
 
 
 
-#Loading time:
+##Loading time:
 
-FP32:
+*FP32:
 	1-Face detection: 0.405
 	2- Head pose estimation: 0.287
 	3-Facial landmarks model: 0.149
 	4-Gaze estimation model:  0.163
---------
-FP16:
+*FP16:
 	1-Face detection: 0.405
 	2- Head pose estimation: 0.274
 	3-Facial landmarks model: 0.132
 	4-Gaze estimation model:  0.155
---------
-INT8: 
+*INT8: 
 	1-Face detection: 0.446
 	2- Head pose estimation: 0.424
 	3-Facial landmarks model: 0.182
 	4-Gaze estimation model:  0.310
---------
 
 
-#Inference time:
+##Inference time:
 
-FP32: 
+*FP32: 
 	1-Face detection: 0.0155
 	2- Head pose estimation: 0.0014
 	3-Facial landmarks model: 0.00123
 	4-Gaze estimation model:  0.00163
-----------
-FP16: 
+
+*FP16: 
 	1-Face detection: 0.0153
 	2- Head pose estimation: 0.0015
 	3-Facial landmarks model: 0.0013
 	4-Gaze estimation model:  0.0018
-----------
-INT8:
+*INT8:
 	1-Face detection: 0.0156
 	2- Head pose estimation: 0.00128
 	3-Facial landmarks model: 0.00126
