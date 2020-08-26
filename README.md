@@ -25,7 +25,7 @@ you can use conda or virtualenv for example:  pip install virtualenv
 
 3- you need to creat virtual enviroment via virtualenv and activate it by running:  
 	virtualenv pointer-controller  
-	source computer-pointer-controller/bin/activate 
+	source pointer-controller/bin/activate 
 
 4- you need to install project dependencies by moving to the pointer-controller directory and then running: pip install -r requirements.txt 
 
